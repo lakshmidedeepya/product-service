@@ -16,8 +16,8 @@ import lombok.NoArgsConstructor;
 public class Product {
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
-	private Integer id;
-	private String name;
-	private ProductCategory category;
-	private double mrp;
+	public Integer id;
+	public String name;
+	public ProductCategory category;
+	public double mrp;
 }
